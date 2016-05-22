@@ -1,0 +1,14 @@
+.round {
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  border-radius: 9999px;
+}
+p {
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  border-radius: 9999px;
+  color: #FF7F50;
+}
+h3 {
+  color: #000;
+}

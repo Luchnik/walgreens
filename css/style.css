@@ -1,0 +1,234 @@
+/* GENERAL STYLES */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+
+html, body, .container {
+  height: 100%;
+}
+
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+/* END GENERAL STYLES */
+
+/* HEADER */
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  height: 140px;
+  z-index: 9999;
+  position: relative;
+}
+
+.header-logo {
+  position: relative;
+  padding-top: 27px;
+  margin-left: 164px;
+  float: left;
+}
+
+.header-welcome {
+  float: right;
+  padding-top: 45px;
+  margin-right: 164px;
+  text-align: right;
+}
+
+.header-welcome a {
+  color: #e21635;
+  font-size: 10.5pt;
+  line-height: 18pt;
+  text-decoration: underline;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.header-welcome a:hover {
+  text-decoration: none;
+}
+
+.header-welcome p {
+  color: #5d5d5d;
+  font-size: 13.5pt;
+  line-height: 18pt;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.header-welcome p span {
+  font-weight: 500;
+}
+
+#arrow {
+  color: #e21635;
+}
+/* END HEADER */
+
+/* MAIN CONTAINER */
+.container {
+  display: table;
+  margin: 0 auto;
+}
+
+.maintext {
+  margin: 0 auto;
+  outline: 0px solid blue;
+  width: 466px;
+}
+
+.maintext p.slogan {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 45pt;
+  line-height: 18pt;
+  padding-top: 62px;
+}
+
+.maintext p.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 13pt;
+  color: #fff;
+  line-height: 18pt;
+  padding-top: 62px;
+  text-align: left;
+}
+/* END MAIN CONTAINER */
+
+/* FORM */
+.form {
+  margin-top: 25px;
+  background-color: gray;
+  height: 514px;
+  margin-bottom: 74px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 3px 0px #636363;
+   -moz-box-shadow: 0px 1px 3px 0px #636363;
+        box-shadow: 0px 1px 3px 0px #636363;
+}
+
+.form h4{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18pt;
+  line-height: 18pt;
+  color: #333333;
+  padding-top: 23px;
+  padding-bottom: 60px;
+  padding-left: 35px;
+}
+
+.forminput {
+  padding-left: 48px;
+}
+
+form a.forgot {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 10.5pt;
+  color: #7b7b7b;
+  margin-left: 312px;
+}
+
+form a.forgot:hover {
+  text-decoration: none;
+}
+
+form p {
+  outline: 0px solid green;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 9pt;
+  color: #494949;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 23px;
+}
+
+form p a {
+  color: #cb3434;
+  text-decoration: none;
+}
+
+form p a:hover {
+  color: #cb3434;
+  text-decoration: underline;
+}
+
+input[type="text"], input[type="password"] {
+  display: block;
+  width: 370px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12pt;
+  color: #7c7c7c;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  padding-bottom: 17.5px;
+  border: none;
+  border-bottom: solid 1px #bfbfbf;
+  transition: border 0.3s;
+}
+
+input[type="password"] {
+  margin-bottom: 13.5px;
+}
+
+input[type="password"] {
+  padding-top: 10px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+  border-bottom: solid 1px #bfbfbf;
+}
+
+input[type="submit"] {
+  width: 370px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 13.5pt;
+  text-decoration: none;
+  padding: 25px 0;
+  background-color: #fff;
+  transition: background-color .5s;
+}
+
+input[type="submit"]#signin {
+  margin-top: 34px;
+  margin-left: 47.5px;
+  color: #e16565;
+  border: 2px solid #e16565;
+}
+
+input[type="submit"]#membership {
+  margin-top: 17.5px;
+  margin-left: 47.5px;
+  color: #000;
+  border: 2px solid #636363;
+}
+
+input[type="submit"]#signin:hover {
+  background-color: rgba(255,101,101,.2);
+}
+
+input[type="submit"]#membership:hover {
+  background-color: rgba(99,99,99,.2);
+}
+/* END FORM */
