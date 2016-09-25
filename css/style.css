@@ -226,9 +226,11 @@ input[type="submit"]#membership {
 
 input[type="submit"]#signin:hover {
   background-color: rgba(255,101,101,.2);
+  cursor: pointer;
 }
 
 input[type="submit"]#membership:hover {
   background-color: rgba(99,99,99,.2);
+  cursor: pointer;
 }
 /* END FORM */
